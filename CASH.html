@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASH COIN</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2family=Poppins:wght@100;200;300;400;600;700&family=Rubik+Microbe&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+    <nav>
+        <a href="CASH.html"><img src="real one.png" style="height: 250px; width: 250px;"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <div class="textbox">
+        <h1>World's biggest cryptocurrency platform</h1>
+        <p><strong>Cashcoin</strong> is the worlds biggest online platform for buying,selling,storing and exchanging cryptocurrency</p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+    </div>
+
+</section>
+
+<!----- Cryptocurrency ----->
+<section class="cryptocurrency">
+    <h1>Cryptocurrency Accepted:</h1>
+    <p>Bitcoin, Ethereum, Tether</p>
+
+<div class="row">
+    
+       <div class="crypto-col">
+        <h3>Bitcoin</h3> 
+        <p>Bitcoin is a decentralized digital currency, without a central bank or single administrator, that can be sent from user to user on the peer-to-peer bitcoin network without the need for intermediaries.</p>
+    </div>
+    <div class="crypto-col">
+        <h3>Ethereum</h3> 
+        <p>Ethereum is a decentralized, open-source blockchain with smart contract functionality.</p>
+    </div>
+    <div class="crypto-col">
+        <h3>Tether</h3> 
+        <p>Tether is a cryptocurrency that is hosted on the Ethereum and Bitcoin blockchains, among others.</p>
+    </div>
+</div>
+
+</section>
+
+<!-------platform------>
+<section class="platform">
+    <h1>Our Global Platform</h1>
+    <p> Our global platform is the worlds biggest online platform for buying,selling,storing and exchanging cryptocurrency </p>
+    <div class="row">
+        <div class="platform-col">
+            <img src="usedis.jpeg">
+            <div class="layer">
+                <h3>Bitcoin</h3>
+            </div>
+        </div>
+            <div class="platform-col">
+                <img src="usediz2.jpeg">
+                <div class="layer">
+                    <h3>Ethereum</h3>
+                </div>
+            </div>
+                <div class="platform-col">
+                    <img src="usediz3.jpeg">
+                    <div class="layer">
+                        <h3>Tether</h3>
+                    </div>
+        </div>
+    </div>
+</section>
+<!------testimonials------->
+<section class="testimonials">
+    <h1>What our users says</h1>
+    <p>Here are some feedbacks from our users</p>
+    <div class="row">
+        <div class="testimonials-col">
+            <img src="OIP.jpg">
+            <div>
+                <p> one of the most reliable and trustworthy online platfrom for trading all types of cryptocurrency</p>
+                <h3>Tosin Cutlip</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonials-col">
+            <img src="bk3.jpg">
+            <div>
+                <p> currently the best platform for trading crypto's</p>
+                <h3>Jason Kitan</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!------call to action------->
+<section class="cta">
+    <h1>Sign up for our website anywhere from the world</h1>
+    <div class="container">
+        <form>
+                    <p>please fill this form to create an account with <strong>CASHCOIN</strong></p>
+                    <hr />
+                    <label>Name</label>
+                    <input type="text" placeholder="Name" />
+                    <br />
+                    <label>Email</label>
+                    <input type="email" placeholder="Email" />
+                    <br />
+                    <label>Password</label>
+                    <input type="password" placeholder="Password" />
+                    <br>
+                    <label>Re-password</label>
+                    <input type="password" placeholder="Re-password" />
+                    <p>
+                        By creating an account you agree to our 
+                        <a href="#">Terms and Privacy</a>
+                    </p>
+        
+                    <button class="registerbtn">Sign Up</button>
+                
+                    <div class="login">
+                    <p>Already have account? <a href="#">Login</a></p>
+                </form>
+                <div>
+
+            <a href=""class="hero-btn">CONTACT US</a>
+    </div>
+
+</section>
+
+
+<!-------Footer------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are building the cryptoeconomy - a more fair, accessible, efficient, and transparent financial system enabled by crypto. We started in 2022 with the radical idea that anyone, anywhere,<br> should be able to easily and securely send and receive Bitcoin. Today, we offer a trusted and easy-to-use platform for accessing the broader cryptoeconomy.</p>
+<div class="icons">
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+</div>
+&lt;&lt;&lt; &copy; Subomi badmus &gt;&gt;&gt; 
+</section>
+
+<!--------JavaScript for Toggle Menu------->    
+    <script>
+
+var navLinks = document.getElementById("navLinks")
+function showmenu(){
+    navLinks.style.right = "0";
+}
+
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+
+    </script>
+
+
+
+</body>
+</html>
